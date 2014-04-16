@@ -1,0 +1,25 @@
+{% if site.development %}
+  <nav>
+    <ul>
+      <li><a class="button" href="{{ site.development }}/">Home</a></li>
+      <li><a class="button" href="{{ site.development }}/what-is-crossfit/">What is CrossFit?</a></li>
+      <li><a class="button" href="{{ site.development }}/Getting_Started.html" class="button">Get Started Today</a></li>
+      <li><a class="button" href="{{ site.development }}/ourrates.html">Rates</a></li>
+      <li><a class="button" href="{{ site.development }}/ots3facts.html">FAQ</a></li>
+      <li><a class="button" href="//crossfitots3.blogspot.com">WOD and Event Updates</a></li>
+    </ul>
+  </nav>
+  <div id="main" role="main">
+{% else %}
+  <nav>
+    <ul>
+      <li><a class="button" href="/">Home</a></li>
+      <li><a class="button" href="/what-is-crossfit/">What is CrossFit?</a></li>
+      <li><a class="button" href="/Getting_Started.html" class="button">Get Started Today</a></li>
+      <li><a class="button" href="/ourrates.html">Rates</a></li>
+      <li><a class="button" href="/ots3facts.html">FAQ</a></li>
+      <li><a class="button" href="//crossfitots3.blogspot.com">WOD and Event Updates</a></li>
+    </ul>
+  </nav>
+  <div id="main" role="main">
+{% endif %}
